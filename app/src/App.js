@@ -1,12 +1,12 @@
-import Article from './components/Article';
+import { BadCounter, Counter, TextInput, ToggleButton } from "./components";
 
 function App() {
   return (
     <div>
-      <Article
-        title={'reactの入門勉強編6'}
-        content={'今日のトピックuseStateについて'}
-      />
+      {/* <TextInput /> */}
+      {/* <BadCounter /> */}
+      {/* <Counter /> */}
+      <ToggleButton />
     </div>
   );
 }
